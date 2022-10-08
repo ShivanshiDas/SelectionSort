@@ -15,7 +15,7 @@ var swap = 0
 var swapTotal = 0
 
 
-print("Pass: \(pass), Swaps: \(swap)/\(swapTotal), Array: \(words)")
+
 for i in 0..<words.count-1{ //for every element except for the last element
     var minIndex = i
     swap = 0 // reset swap before inner for loop 
@@ -30,8 +30,8 @@ for i in 0..<words.count-1{ //for every element except for the last element
     pass += 1 // iterate through each element in the outside loop
     swap += 1
     swapTotal += 1
-    print("Pass: \(pass), Swaps: \(swap)/\(swapTotal), Array: \(words)")
+
 
 }
 
-        
+print(words)        
